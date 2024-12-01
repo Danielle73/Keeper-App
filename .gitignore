@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+
+# Dependency directories
+/node_modules/
+
+# Build output
+dist/
+out/
+*.local
+
+# Editor directories and files
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Vite specific
+*.tsbuildinfo
+
+# Testing
+coverage/
+*.lcov
+jest.config.js
+jest.setup.js
+
+# Cache
+.cache/
+.vite/
+
+# Ignore everything in the parent directory
+../*
+
+# Allow the current project folder and its contents
+!293-keeper-app-part-1-challenge/**
+
+# macOS
+.DS_Store
