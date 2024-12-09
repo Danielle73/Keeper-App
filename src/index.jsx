@@ -18,10 +18,10 @@
 // to launch your react project in your browser
 
 import React from "react";
-import { createRoot } from "react-dom/client"; // Correct import for React 18
+import { createRoot } from "react-dom/client"; 
 import App from "./components/App";
 
-const rootElement = document.getElementById("root"); // Get the root element
-const root = createRoot(rootElement); // Create a root with React 18's createRoot
+const rootElement = document.getElementById("root"); 
+const root = createRoot(rootElement); 
 
-root.render(<App />); // Render the App component into the root
+root.render(<App />); 
