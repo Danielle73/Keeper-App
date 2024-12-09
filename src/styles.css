@@ -44,11 +44,11 @@ body {
   margin: 16px;
   float: left;
 }
-.note h1 {
+.note_h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
-.note p {
+.note_p {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
