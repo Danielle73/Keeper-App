@@ -2,12 +2,13 @@ import React from "react";
 
 const Header = () => {
     return ( 
-        <>
-      <div className="header">  
-        <h1 className="header_h1">Keeper App</h1>
-        </div>
-        </>
+
+        <header>
+            <h1 className="header h1">Keeper App</h1>
+        </header>
+
      );
 }
  
 export default Header;
+
